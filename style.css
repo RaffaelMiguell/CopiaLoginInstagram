@@ -1,0 +1,179 @@
+:root {
+  --colorbtn: hsl(204, 100%, 48%);
+  --bgprincipal: rgb(243, 243, 243);
+}
+
+/* img{
+  width: 100%;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 100%;
+  height: 100vh;
+  background-color: var(--bgprincipal);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+
+.img-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.img-phone img {
+  height: 80rem;
+  /* width: 100%; */
+}
+
+.continue {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between; /* muda de x p/ y */
+  align-items: center; /* muda de y p/ x */
+  flex-direction: column; /*muda de row p/ column */
+  background-color: white;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+  margin-bottom: 1.5rem;
+}
+
+.insta-logo {
+  /* width: 40%; */
+  height: 5rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.profile img {
+  /* width: 40%; */
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.logout {
+  color: var(--colorbtn);
+  /* margin-top: 1rem; */
+}
+
+.login {
+  background-color: var(--colorbtn);
+  color: white;
+  padding: 8px;
+  margin: 1.5rem;
+  border-radius: 4px;
+}
+
+.not-account {
+  color: rgb(168, 160, 160);
+}
+
+.link-blue {
+  color: var(--colorbtn);
+}
+
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.app-download:nth-child(1) {
+  background-image: url('./assets/apple.png');
+}
+
+.app-download:nth-child(2) {
+  background-image: url('./assets/google.png');
+}
+
+
+
+/* responsividade */
+
+
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media(max-width: 650px){
+
+  body{
+    background-color: white;
+  }
+
+  .wrapper{
+    width: 90%;
+  }
+
+  .img-phone{
+    display: none;
+  }
+
+  .continue{
+    width: 100%;
+  }
+
+  .group{
+    border: 1px solid transparent;
+  }
+
+}
