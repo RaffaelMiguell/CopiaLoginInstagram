@@ -1,12 +1,11 @@
-
-
 ## BOOTCAMP ROCKETSEAT
 
 ![preview](./.github/copiaInstagram.png)
 
->Criação de página de *login fake*, inspiradano Instagram, durante bootcamp Santander, com a empresa DIO.
+> Criação de página de _login fake_, inspirada no Instagram, durante bootcamp Santander, com a empresa DIO.
 
 ---
+
 ## TECNOLOGIAS UTILIZADAS:
 
 - HTML
@@ -14,7 +13,3 @@
 - GITHUB
 
 [Clique aqui para visualizar](https://raffaelmiguell.github.io/CopiaLoginInstagram/)
-
-
-
-
