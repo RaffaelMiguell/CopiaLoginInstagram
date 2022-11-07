@@ -1,4 +1,4 @@
-## BOOTCAMP ROCKETSEAT
+## BOOTCAMP DIO
 
 ![preview](./.github/copiaInstagram.png)
 
